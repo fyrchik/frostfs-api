@@ -3,8 +3,8 @@
 First, thank you for contributing! We love and encourage pull requests from
 everyone. Please follow the guidelines:
 
-- Check the open [issues](https://github.com/nspcc-dev/neofs-api/issues) and
-  [pull requests](https://github.com/nspcc-dev/neofs-api/pulls) for existing
+- Check the open [issues](https://github.com/TrueCloudLab/frostfs-api/issues) and
+  [pull requests](https://github.com/TrueCloudLab/frostfs-api/pulls) for existing
   discussions.
 
 - Open an issue first, to discuss a new feature or enhancement.
@@ -21,23 +21,23 @@ everyone. Please follow the guidelines:
 
 ## Development Workflow
 
-Start by forking the `neofs-api` repository, make changes in a branch and then
+Start by forking the `frostfs-api` repository, make changes in a branch and then
 send a pull request. We encourage pull requests to discuss code changes. Here
 are the steps in details:
 
 ### Set up your GitHub Repository
-Fork [NeoFS node upstream](https://github.com/nspcc-dev/neofs-api/fork) source
+Fork [NeoFS node upstream](https://github.com/TrueCloudLab/frostfs-api/fork) source
 repository to your own personal repository. Copy the URL of your fork (you will
 need it for the `git clone` command below).
 
 ```sh
-$ git clone https://github.com/nspcc-dev/neofs-api
+$ git clone https://github.com/TrueCloudLab/frostfs-api
 ```
 
 ### Set up git remote as ``upstream``
 ```sh
-$ cd neofs-api
-$ git remote add upstream https://github.com/nspcc-dev/neofs-api
+$ cd frostfs-api
+$ git remote add upstream https://github.com/TrueCloudLab/frostfs-api
 $ git fetch upstream
 $ git merge upstream/master
 ...
@@ -103,7 +103,7 @@ contributors".
 To sign your work, just add a line like this at the end of your commit message:
 
 ```
-Signed-off-by: Samii Sakisaka <samii@nspcc.ru>
+Signed-off-by: Samii Sakisaka <samii@ivunojikan.co.jp>
 ```
 
 This can be done easily with the `--signoff` option to `git commit`.

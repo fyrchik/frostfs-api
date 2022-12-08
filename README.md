@@ -1,23 +1,22 @@
 <p align="center">
-<img src="./.github/logo.svg" width="500px" alt="NeoFS">
+<img src="./.github/logo.svg" width="500px" alt="FrostFS">
 </p>
 <p align="center">
-  <a href="https://fs.neo.org">NeoFS</a> API language-agnostic protocol definitions
+  <a href="https://objectstorage.info">FrostFS</a> API language-agnostic protocol definitions
 </p>
 
 ---
-![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/nspcc-dev/neofs-api?sort=semver)
-![License](https://img.shields.io/github/license/nspcc-dev/neofs-api.svg?style=popout)
+![GitHub release (latest SemVer)](https://img.shields.io/github/v/release/TrueCloudLab/frostfs-api?sort=semver)
+![License](https://img.shields.io/github/license/TrueCloudLab/frostfs-api.svg?style=popout)
 
 ## Overview
 
-NeoFS-API repository is the basis for language-specific libraries, e.g.:
+FrostFS-API repository is the basis for language-specific libraries, e.g.:
 
-- [neofs-api-go](https://github.com/nspcc-dev/neofs-api-go)
-- [neofs-api-csharp](https://github.com/nspcc-dev/neofs-api-csharp)
+- [frostfs-api-go](https://github.com/TrueCloudLab/frostfs-api-go)
 
 Those libraries contain compiled protocol buffers definitions, wrapped with
-language-specific code. Use them to integrate applications with NeoFS.
+language-specific code. Use them to integrate applications with FrostFS.
 
 This repository contains:
 
